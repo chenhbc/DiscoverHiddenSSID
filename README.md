@@ -1,3 +1,11 @@
 this project is targetting that Discover the Hidden SSID.
 ----------------------------------------------------------------------
-¸ÃÏîÄ¿Ö÷ÒªÓÃÓÚ·¢ÏÖÖÜÎ§µÄÒþ²ØÎÞÏßÈÈµã£¬Í¬Ê±¸ø³öÎÞÏßÈÈµãµÄSSIDºÍ¼ÓÃÜÐÅÏ¢¡£
+è¯¥é¡¹ç›®ä¸»è¦ç”¨äºŽå‘çŽ°å‘¨å›´çš„éšè—æ— çº¿çƒ­ç‚¹ï¼ŒåŒæ—¶ç»™å‡ºæ— çº¿çƒ­ç‚¹çš„SSIDå’ŒåŠ å¯†ä¿¡æ¯ã€‚
+
+>ImportError: No module named dnet
+
+
+
+1.`brew install --with-python libdnet`
+
+2.`sudo cp /usr/local/lib/python2.7/site-packages/dnet.so /Library/Python/2.7/site-packages/`
